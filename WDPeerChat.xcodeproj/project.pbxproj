@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		887FF4DC1BF51CF400E44F22 /* WDChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FF4DB1BF51CF400E44F22 /* WDChatListViewController.m */; };
+		88C0F05D1BFB46E100E953F7 /* WDMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0F05C1BFB46E100E953F7 /* WDMessage.m */; };
+		88C0F0611BFB6BF500E953F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C0F05F1BFB6BF500E953F7 /* Main.storyboard */; };
 		88E1BC201BF1DA14002B75BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1BC1F1BF1DA14002B75BC /* main.m */; };
 		88E1BC231BF1DA14002B75BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1BC221BF1DA14002B75BC /* AppDelegate.m */; };
-		88E1BC261BF1DA14002B75BC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1BC251BF1DA14002B75BC /* FirstViewController.m */; };
-		88E1BC291BF1DA14002B75BC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1BC281BF1DA14002B75BC /* SecondViewController.m */; };
-		88E1BC2C1BF1DA14002B75BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E1BC2A1BF1DA14002B75BC /* Main.storyboard */; };
+		88E1BC261BF1DA14002B75BC /* WDChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1BC251BF1DA14002B75BC /* WDChatViewController.m */; };
 		88E1BC2E1BF1DA14002B75BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E1BC2D1BF1DA14002B75BC /* Assets.xcassets */; };
 		88E1BC311BF1DA14002B75BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E1BC2F1BF1DA14002B75BC /* LaunchScreen.storyboard */; };
 		88E1BC3C1BF1DA14002B75BC /* WDPeerChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1BC3B1BF1DA14002B75BC /* WDPeerChatTests.m */; };
 		88E1BC471BF1DA14002B75BC /* WDPeerChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1BC461BF1DA14002B75BC /* WDPeerChatUITests.m */; };
+		88E1BC561BF1DA8C002B75BC /* WDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1BC551BF1DA8C002B75BC /* WDLoginViewController.m */; };
+		88E1BC5B1BF1FCF3002B75BC /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E1BC5A1BF1FCF3002B75BC /* MultipeerConnectivity.framework */; };
+		88E1BC5F1BF1FD23002B75BC /* WDChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1BC5E1BF1FD23002B75BC /* WDChatManager.m */; };
+		DACC90BAB3AED95B8151A819 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AFF3F8BB65BE36422905E0 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6441A947AEA9E8696F5B34AE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		75AFF3F8BB65BE36422905E0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		887FF4DA1BF51CF400E44F22 /* WDChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDChatListViewController.h; sourceTree = "<group>"; };
+		887FF4DB1BF51CF400E44F22 /* WDChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDChatListViewController.m; sourceTree = "<group>"; };
+		88C0F0591BF8E2DD00E953F7 /* WDPeerChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WDPeerChat-Prefix.pch"; sourceTree = "<group>"; };
+		88C0F05B1BFB46E100E953F7 /* WDMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMessage.h; sourceTree = "<group>"; };
+		88C0F05C1BFB46E100E953F7 /* WDMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMessage.m; sourceTree = "<group>"; };
+		88C0F0601BFB6BF500E953F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88E1BC1B1BF1DA13002B75BC /* WDPeerChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDPeerChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E1BC1F1BF1DA14002B75BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		88E1BC211BF1DA14002B75BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		88E1BC221BF1DA14002B75BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		88E1BC241BF1DA14002B75BC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		88E1BC251BF1DA14002B75BC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		88E1BC271BF1DA14002B75BC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		88E1BC281BF1DA14002B75BC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		88E1BC2B1BF1DA14002B75BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88E1BC211BF1DA14002B75BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		88E1BC221BF1DA14002B75BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		88E1BC241BF1DA14002B75BC /* WDChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WDChatViewController.h; path = ../WDChatViewController.h; sourceTree = "<group>"; };
+		88E1BC251BF1DA14002B75BC /* WDChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WDChatViewController.m; path = ../WDChatViewController.m; sourceTree = "<group>"; };
 		88E1BC2D1BF1DA14002B75BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88E1BC301BF1DA14002B75BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88E1BC321BF1DA14002B75BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +64,12 @@
 		88E1BC421BF1DA14002B75BC /* WDPeerChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDPeerChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E1BC461BF1DA14002B75BC /* WDPeerChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDPeerChatUITests.m; sourceTree = "<group>"; };
 		88E1BC481BF1DA14002B75BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E1BC541BF1DA8C002B75BC /* WDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDLoginViewController.h; path = ../WDLoginViewController.h; sourceTree = "<group>"; };
+		88E1BC551BF1DA8C002B75BC /* WDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDLoginViewController.m; path = ../WDLoginViewController.m; sourceTree = "<group>"; };
+		88E1BC5A1BF1FCF3002B75BC /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		88E1BC5D1BF1FD23002B75BC /* WDChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDChatManager.h; sourceTree = "<group>"; };
+		88E1BC5E1BF1FD23002B75BC /* WDChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDChatManager.m; sourceTree = "<group>"; };
+		E4FC3D99F7F64BDE5F8527F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E1BC5B1BF1FCF3002B75BC /* MultipeerConnectivity.framework in Frameworks */,
+				DACC90BAB3AED95B8151A819 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +99,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		887FF4D61BF51C4700E44F22 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88E1BC241BF1DA14002B75BC /* WDChatViewController.h */,
+				88E1BC251BF1DA14002B75BC /* WDChatViewController.m */,
+				88E1BC541BF1DA8C002B75BC /* WDLoginViewController.h */,
+				88E1BC551BF1DA8C002B75BC /* WDLoginViewController.m */,
+				887FF4DA1BF51CF400E44F22 /* WDChatListViewController.h */,
+				887FF4DB1BF51CF400E44F22 /* WDChatListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		88C0F05E1BFB659400E953F7 /* AppDeleagte */ = {
+			isa = PBXGroup;
+			children = (
+				88E1BC211BF1DA14002B75BC /* AppDelegate.h */,
+				88E1BC221BF1DA14002B75BC /* AppDelegate.m */,
+			);
+			path = AppDeleagte;
+			sourceTree = "<group>";
+		};
 		88E1BC121BF1DA13002B75BC = {
 			isa = PBXGroup;
 			children = (
+				88E1BC5A1BF1FCF3002B75BC /* MultipeerConnectivity.framework */,
 				88E1BC1D1BF1DA13002B75BC /* WDPeerChat */,
 				88E1BC3A1BF1DA14002B75BC /* WDPeerChatTests */,
 				88E1BC451BF1DA14002B75BC /* WDPeerChatUITests */,
 				88E1BC1C1BF1DA13002B75BC /* Products */,
+				F3E961C07DE0202ECC4DFC13 /* Pods */,
+				8DC06D6180E7AAFBF78AB254 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,15 +147,13 @@
 		88E1BC1D1BF1DA13002B75BC /* WDPeerChat */ = {
 			isa = PBXGroup;
 			children = (
-				88E1BC211BF1DA14002B75BC /* AppDelegate.h */,
-				88E1BC221BF1DA14002B75BC /* AppDelegate.m */,
-				88E1BC241BF1DA14002B75BC /* FirstViewController.h */,
-				88E1BC251BF1DA14002B75BC /* FirstViewController.m */,
-				88E1BC271BF1DA14002B75BC /* SecondViewController.h */,
-				88E1BC281BF1DA14002B75BC /* SecondViewController.m */,
-				88E1BC2A1BF1DA14002B75BC /* Main.storyboard */,
+				88C0F05E1BFB659400E953F7 /* AppDeleagte */,
+				887FF4D61BF51C4700E44F22 /* ViewControllers */,
+				88E1BC5C1BF1FD01002B75BC /* Managers */,
+				88E1BC581BF1DF80002B75BC /* Models */,
 				88E1BC2D1BF1DA14002B75BC /* Assets.xcassets */,
 				88E1BC2F1BF1DA14002B75BC /* LaunchScreen.storyboard */,
+				88C0F05F1BFB6BF500E953F7 /* Main.storyboard */,
 				88E1BC321BF1DA14002B75BC /* Info.plist */,
 				88E1BC1E1BF1DA13002B75BC /* Supporting Files */,
 			);
@@ -123,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				88E1BC1F1BF1DA14002B75BC /* main.m */,
+				88C0F0591BF8E2DD00E953F7 /* WDPeerChat-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,6 +187,41 @@
 			path = WDPeerChatUITests;
 			sourceTree = "<group>";
 		};
+		88E1BC581BF1DF80002B75BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88C0F05B1BFB46E100E953F7 /* WDMessage.h */,
+				88C0F05C1BFB46E100E953F7 /* WDMessage.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		88E1BC5C1BF1FD01002B75BC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				88E1BC5D1BF1FD23002B75BC /* WDChatManager.h */,
+				88E1BC5E1BF1FD23002B75BC /* WDChatManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8DC06D6180E7AAFBF78AB254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75AFF3F8BB65BE36422905E0 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E961C07DE0202ECC4DFC13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4FC3D99F7F64BDE5F8527F5 /* Pods.debug.xcconfig */,
+				6441A947AEA9E8696F5B34AE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88E1BC4B1BF1DA14002B75BC /* Build configuration list for PBXNativeTarget "WDPeerChat" */;
 			buildPhases = (
+				E04AF8721B79416C617E996B /* Check Pods Manifest.lock */,
 				88E1BC171BF1DA13002B75BC /* Sources */,
 				88E1BC181BF1DA13002B75BC /* Frameworks */,
 				88E1BC191BF1DA13002B75BC /* Resources */,
+				A894BEE9FF7A686AC8BF8F60 /* Embed Pods Frameworks */,
+				BCC16DFDAC275F243C8425B4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,11 +287,13 @@
 		88E1BC131BF1DA13002B75BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WD;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Waruna de Silva";
 				TargetAttributes = {
 					88E1BC1A1BF1DA13002B75BC = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SHQXRPS4KJ;
 					};
 					88E1BC361BF1DA14002B75BC = {
 						CreatedOnToolsVersion = 7.1;
@@ -248,9 +330,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C0F0611BFB6BF500E953F7 /* Main.storyboard in Resources */,
 				88E1BC311BF1DA14002B75BC /* LaunchScreen.storyboard in Resources */,
 				88E1BC2E1BF1DA14002B75BC /* Assets.xcassets in Resources */,
-				88E1BC2C1BF1DA14002B75BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,14 +352,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A894BEE9FF7A686AC8BF8F60 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC16DFDAC275F243C8425B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04AF8721B79416C617E996B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88E1BC171BF1DA13002B75BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E1BC291BF1DA14002B75BC /* SecondViewController.m in Sources */,
 				88E1BC231BF1DA14002B75BC /* AppDelegate.m in Sources */,
-				88E1BC261BF1DA14002B75BC /* FirstViewController.m in Sources */,
+				88E1BC5F1BF1FD23002B75BC /* WDChatManager.m in Sources */,
+				887FF4DC1BF51CF400E44F22 /* WDChatListViewController.m in Sources */,
+				88E1BC261BF1DA14002B75BC /* WDChatViewController.m in Sources */,
+				88E1BC561BF1DA8C002B75BC /* WDLoginViewController.m in Sources */,
+				88C0F05D1BFB46E100E953F7 /* WDMessage.m in Sources */,
 				88E1BC201BF1DA14002B75BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,10 +447,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88E1BC2A1BF1DA14002B75BC /* Main.storyboard */ = {
+		88C0F05F1BFB6BF500E953F7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				88E1BC2B1BF1DA14002B75BC /* Base */,
+				88C0F0601BFB6BF500E953F7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -369,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -407,7 +540,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,8 +550,10 @@
 		};
 		88E1BC4C1BF1DA14002B75BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FC3D99F7F64BDE5F8527F5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WDPeerChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.WDPeerChat;
@@ -428,8 +563,10 @@
 		};
 		88E1BC4D1BF1DA14002B75BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6441A947AEA9E8696F5B34AE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WDPeerChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waruna.WDPeerChat;
@@ -504,6 +641,7 @@
 				88E1BC4D1BF1DA14002B75BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E1BC4E1BF1DA14002B75BC /* Build configuration list for PBXNativeTarget "WDPeerChatTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +650,7 @@
 				88E1BC501BF1DA14002B75BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E1BC511BF1DA14002B75BC /* Build configuration list for PBXNativeTarget "WDPeerChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +659,7 @@
 				88E1BC531BF1DA14002B75BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
